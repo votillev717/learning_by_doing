@@ -5,10 +5,6 @@ def ask_question(question)
   gets.chomp
 end
 
-def plural_noun(adjective)
-
-end
-
 adjective = ask_question("Give me an adjective. ")
 adjective2 = ask_question("Give me a second adjective. ")
 adjective3 = ask_question("Give me a third adjective. ")
