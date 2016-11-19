@@ -1,21 +1,17 @@
-#!usr/bin/env ruby
+#!/usr/bin/env ruby
 
 def bottles_of_beer
+  number_of_bottles = 100
+  new_number_of_bottles = 99
 
-end
+  until number_of_bottles < 2
 
-number_of_bottles = 100
-number_of_bottles2 = 99
+    number_of_bottles -= 1
+    new_number_of_bottles -= 1
 
-until number_of_bottles < 2
+    puts "#{number_of_bottles} bottles of beer on the wall. "
+    puts "#{number_of_bottles} bottles of beer. Take one down pass it around. "
+    puts "#{new_number_of_bottles} bottles of beer on the wall."
 
-  number_of_bottles -= 1
-  number_of_bottles2 -= 1
-
-  puts "#{number_of_bottles} bottles of beer on the wall. "
-  puts "#{number_of_bottles} bottles of beer. Take one down pass it around. "
-  puts "#{number_of_bottles2} bottles of beer on the wall.
-
-"
-
+  end
 end
