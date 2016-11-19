@@ -15,3 +15,5 @@ def bottles_of_beer
 
   end
 end
+
+puts bottles_of_beer
